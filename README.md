@@ -64,7 +64,6 @@ gantt
     section Finalization
     Documentation       : 2023-04-11, 2023-05-10
     Presentation        : 2023-05-11, 2023-06-10
-
 ```
 
 ## Use Cases for IDTA Submodel Template Development
