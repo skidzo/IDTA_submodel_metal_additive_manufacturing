@@ -2,7 +2,7 @@
 IDTA Submodel "Metal 3D Printing Machine"
 
 
-# Agenda: KickOff Meeting - IDTA Submodel "Metal 3D Printing Machine" Working Group
+## Agenda: KickOff Meeting - IDTA Submodel "Metal 3D Printing Machine" Working Group
 ### (1.5 hours - 13:00 to 14:30)
 
 1. **Welcome and Introductions** *(5 mins)*
@@ -66,6 +66,46 @@ gantt
     Presentation        : 2023-05-11, 2023-06-10
 
 ```
+
+## Use Cases for IDTA Submodel Template Development
+
+1. **Machine Selection and Comparison:**
+   - **Use Case:** Manufacturers need to select and compare LPBF machines based on capabilities.
+   - **Importance:** Parameters like build volume, laser power, and scanning speed aid in informed decision-making.
+
+2. **Production Profile Optimization:**
+   - **Use Case:** Optimizing production parameters for quality, efficiency, and material usage.
+   - **Importance:** Parameters like layer temperature and build orientation enable fine-tuning of profiles.
+
+3. **Quality Control and Traceability:**
+   - **Use Case:** Ensuring consistent part quality and traceability for certified parts.
+   - **Importance:** Process monitoring parameters, melt pool temperature, and powder distribution facilitate quality control.
+
+4. **Process Monitoring and Maintenance:**
+   - **Use Case:** Continuous process monitoring for anomaly detection and machine health.
+   - **Importance:** Parameters like gas flow rates and energy consumption enable real-time monitoring.
+
+5. **Data-Driven Process Improvement:**
+   - **Use Case:** Analyzing historical data to identify trends for efficiency and quality improvements.
+   - **Importance:** Parameters related to machine utilization, defects, and process variations aid in analysis.
+
+6. **Interoperability and Data Exchange:**
+   - **Use Case:** Seamless data exchange between LPBF machines and systems for collaboration.
+   - **Importance:** Standardized data representation ensures interoperability across platforms.
+
+7. **Training and Knowledge Transfer:**
+   - **Use Case:** Training new operators and knowledge sharing for consistent production.
+   - **Importance:** Including parameters and best practices aids in effective training.
+
+8. **Cognitive Production Control and AI Integration:**
+   - **Use Case:** AI-driven systems for production control and problem-solving.
+   - **Importance:** Submodel should accommodate AI-generated insights and suggestions.
+
+9. **Regulatory Compliance and Certification:**
+   - **Use Case:** Adhering to regulations and certifications for industries like aerospace and medical.
+   - **Importance:** Capturing parameters relevant to compliance ensures certified part production.
+
+These use cases emphasize the diverse roles of the submodel template in enhancing LPBF processes, from machine selection to AI integration, ensuring comprehensive coverage and advancement of additive manufacturing.
 
 ---
 
