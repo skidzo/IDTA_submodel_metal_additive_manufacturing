@@ -56,14 +56,14 @@ gantt
     Gather Parameters   : 2023-09-08, 2023-10-08
     Collect Data       : 2023-10-09, 2023-11-09
     section Template Design
-    Submodel Framework  : 2023-11-10, 2023-01-10
-    Parameters Mapping : 2023-01-11, 2023-02-10
+    Submodel Framework  : 2023-11-10, 2024-01-10
+    Parameters Mapping : 2023-01-11, 2024-02-10
     section Testing and Refinement
-    Template Validation: 2023-02-11, 2023-03-10
-    Iterative Refinement: 2023-03-11, 2023-04-10
+    Template Validation: 2024-02-11, 2024-03-10
+    Iterative Refinement: 2024-03-11, 2024-04-10
     section Finalization
-    Documentation       : 2023-04-11, 2023-05-10
-    Presentation        : 2023-05-11, 2023-06-10
+    Documentation       : 2024-04-11, 2024-05-10
+    Presentation        : 2024-05-11, 2024-07-10
 ```
 
 ## Use Cases for IDTA Submodel Template Development
