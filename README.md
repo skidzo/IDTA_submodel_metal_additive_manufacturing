@@ -51,19 +51,20 @@ gantt
     dateFormat  YYYY-MM-DD
     title IDTA Submodel Project Milestones
     section Initiation
-    Kickoff Meeting     :done, 2023-08-01, 2023-08-01
+    Kickoff Meeting     :done, 2023-09-07, 2023-09-07
     section Data Collection
-    Gather Parameters   : 2023-08-02, 2023-08-10
-    Collect Data       : 2023-08-11, 2023-08-20
+    Gather Parameters   : 2023-09-08, 2023-10-08
+    Collect Data       : 2023-10-09, 2023-11-09
     section Template Design
-    Submodel Framework  : 2023-08-21, 2023-09-05
-    Parameters Mapping : 2023-09-06, 2023-09-15
+    Submodel Framework  : 2023-11-10, 2023-01-10
+    Parameters Mapping : 2023-01-11, 2023-02-10
     section Testing and Refinement
-    Template Validation: 2023-09-16, 2023-09-30
-    Iterative Refinement: 2023-10-01, 2023-10-15
+    Template Validation: 2023-02-11, 2023-03-10
+    Iterative Refinement: 2023-03-11, 2023-04-10
     section Finalization
-    Documentation       : 2023-10-16, 2023-10-30
-    Presentation        : 2023-10-31, 2023-11-05
+    Documentation       : 2023-04-11, 2023-05-10
+    Presentation        : 2023-05-11, 2023-06-10
+
 ```
 
 ---
