@@ -57,7 +57,7 @@ gantt
     Collect Data       : 2023-10-09, 2023-11-09
     section Template Design
     Submodel Framework  : 2023-11-10, 2024-01-10
-    Parameters Mapping : 2023-01-11, 2024-02-10
+    Parameters Mapping : 2024-01-11, 2024-02-10
     section Testing and Refinement
     Template Validation: 2024-02-11, 2024-03-10
     Iterative Refinement: 2024-03-11, 2024-04-10
