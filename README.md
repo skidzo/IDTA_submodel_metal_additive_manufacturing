@@ -1,9 +1,47 @@
-# IDTA Submodel for PBF-LB/M (LPBF Laser Powder Bed Fusion) Metal 3D Printing Machines
+# IDTA Submodel for Metal Additive Manufacturing (LPBF-M)
+
+A draft submodel template for Laser Powder Bed Fusion (LPBF) metal additive manufacturing machines, following IDTA guidelines.
+
+---
+
+## 🚀 Project Overview
+
+This project aims to standardize the digital representation of LPBF-M machines for interoperability in Industry 4.0 environments. By defining a submodel template, we enable data-driven applications, machine integration, and semantic interoperability.
+
+---
+
+## 📦 Features
+
+- Standardized data structures for LPBF-M machines
+- Compatibility with AAS (Asset Administration Shell) ecosystems
+- Example implementations and extensible architecture
+
+---
+
+## ⚡️ Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- (Optional) `pip` for package management
+
+### Installation
+
+```bash
+git clone https://github.com/skidzo/IDTA_submodel_metal_additive_manufacturing.git
+cd IDTA_submodel_metal_additive_manufacturing
+```
+### Usage
+
+```bash
+python am_machine.py
+```
 
 ## Overview
 This repository contains the draft for an **IDTA submodel template** (formerly called: Metal 3D Printing Machine) designed to standardize data representation for **Laser Powder Bed Fusion (LPBF) metal additive manufacturing machines**. The template facilitates **interoperability**, **data exchange**, and **process optimization** within the digital twin ecosystem of additive manufacturing.
 
 ## Project Milestones
+
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
