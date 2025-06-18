@@ -1,7 +1,8 @@
+import argparse
 import json
 
-
 from basyx.aas import model, adapter
+from basyx.aas.adapter import json as aas_json
 
 
 def _flatten_parameters(params: dict) -> dict:
@@ -111,13 +112,28 @@ def build_lpbf_aas() -> tuple[model.AssetAdministrationShell, model.Submodel]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate the LPBF Machine Submodel as JSON"
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        help="Write JSON output to this file instead of stdout",
+    )
+    args = parser.parse_args()
+
     aas, submodel = build_lpbf_aas()
     print("LPBF Machine Submodel created successfully!")
     json_string = json.dumps(
         {"the_submodel": submodel, "the_aas": aas},
-        cls=adapter.json.AASToJsonEncoder,
+        cls=aas_json.AASToJsonEncoder,
     )
-    print(json_string)
+
+    if args.output:
+        with open(args.output, "w", encoding="utf-8") as f:
+            f.write(json_string)
+    else:
+        print(json_string)
 
 
 if __name__ == "__main__":
