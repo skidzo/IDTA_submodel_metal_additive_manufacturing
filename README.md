@@ -32,10 +32,21 @@ git clone https://github.com/skidzo/IDTA_submodel_metal_additive_manufacturing.g
 cd IDTA_submodel_metal_additive_manufacturing
 pip install -r requirements.txt
 ```
+Install the dependencies (requires Python 3.8 or later):
+
+```bash
+pip install -r requirements.txt
+```
 ### Usage
 
 ```bash
 python am_machine.py
+```
+This prints a confirmation message and the generated JSON. If you want to save
+the output for inspection, redirect it to a file:
+
+```bash
+python am_machine.py > output.json
 ```
 
 ## Overview
