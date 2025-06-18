@@ -15,7 +15,7 @@ def _flatten_parameters(params: dict) -> dict:
             result.update(_flatten_parameters(value))
     return result
 
-# Improved structured dictionary for LPBF machine parameters aligned with Eclipse BaSyx SDK
+# Improved structured dictionary for PBF-LB/M machine parameters aligned with Eclipse BaSyx SDK
 machine_parameters_basic = {
     "Info": {
         "manufacturer_brand": {"type": model.datatypes.String, "unit": None, "description": "Name of the AM machine manufacturer (e.g., SLM, TRUMPF, EOS)"},
@@ -75,19 +75,19 @@ machine_parameters_basic = {
 from basyx.aas import model, adapter
 
 
-def build_lpbf_aas() -> tuple[model.AssetAdministrationShell, model.Submodel]:
-    """Build the AAS and Submodel for an LPBF machine."""
+def build_pbf_lbm_aas() -> tuple[model.AssetAdministrationShell, model.Submodel]:
+    """Build the AAS and Submodel for a PBF-LB/M machine."""
     asset_information = model.AssetInformation(
         asset_kind=model.AssetKind.INSTANCE,
-        global_asset_id="https://acplt.org/LPBF_AAS",
+        global_asset_id="https://acplt.org/PBF-LB-M_AAS",
     )
 
     aas = model.AssetAdministrationShell(
-        id_="https://acplt.org/LPBF_AAS",
+        id_="https://acplt.org/PBF-LB-M_AAS",
         asset_information=asset_information,
     )
 
-    submodel = model.Submodel(id_="https://acplt.org/LPBF_Submodel")
+    submodel = model.Submodel(id_="https://acplt.org/PBF-LB-M_Submodel")
     aas.submodel.add(model.ModelReference.from_referable(submodel))
 
     machine_parameters = _flatten_parameters(machine_parameters_basic)
@@ -113,7 +113,7 @@ def build_lpbf_aas() -> tuple[model.AssetAdministrationShell, model.Submodel]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate the LPBF Machine Submodel as JSON"
+        description="Generate the PBF-LB/M Machine Submodel as JSON"
     )
     parser.add_argument(
         "-o",
@@ -122,8 +122,8 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    aas, submodel = build_lpbf_aas()
-    print("LPBF Machine Submodel created successfully!")
+    aas, submodel = build_pbf_lbm_aas()
+    print("PBF-LB/M Machine Submodel created successfully!")
     json_string = json.dumps(
         {"the_submodel": submodel, "the_aas": aas},
         cls=aas_json.AASToJsonEncoder,
