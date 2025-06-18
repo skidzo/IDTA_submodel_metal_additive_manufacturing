@@ -40,13 +40,13 @@ pip install -r requirements.txt
 ### Usage
 
 ```bash
-python am_machine.py
+python am_machine.py [-o output.json]
 ```
-This prints a confirmation message and the generated JSON. If you want to save
-the output for inspection, redirect it to a file:
+This prints a confirmation message and the generated JSON. You can also use
+`-o` (or `--output`) to write the JSON directly to a file:
 
 ```bash
-python am_machine.py > output.json
+python am_machine.py -o output.json
 ```
 
 ## Overview
