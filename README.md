@@ -1,18 +1,18 @@
-# IDTA Submodel for Metal Additive Manufacturing (LPBF-M)
+# IDTA Submodel for Metal Additive Manufacturing (PBF-LB/M)
 
-A draft submodel template for Laser Powder Bed Fusion (LPBF) metal additive manufacturing machines, following IDTA guidelines.
+A draft submodel template for Laser Powder Bed Fusion (PBF-LB/M) metal additive manufacturing machines, following IDTA guidelines.
 
 ---
 
 ## 🚀 Project Overview
 
-This project aims to standardize the digital representation of LPBF-M machines for interoperability in Industry 4.0 environments. By defining a submodel template, we enable data-driven applications, machine integration, and semantic interoperability.
+This project aims to standardize the digital representation of PBF-LB/M machines for interoperability in Industry 4.0 environments. By defining a submodel template, we enable data-driven applications, machine integration, and semantic interoperability.
 
 ---
 
 ## 📦 Features
 
-- Standardized data structures for LPBF-M machines
+- Standardized data structures for PBF-LB/M machines
 - Compatibility with AAS (Asset Administration Shell) ecosystems
 - Example implementations and extensible architecture
 
@@ -58,7 +58,7 @@ pytest
 ```
 
 ## Overview
-This repository contains the draft for an **IDTA submodel template** (formerly called: Metal 3D Printing Machine) designed to standardize data representation for **Laser Powder Bed Fusion (LPBF) metal additive manufacturing machines**. The template facilitates **interoperability**, **data exchange**, and **process optimization** within the digital twin ecosystem of additive manufacturing.
+This repository contains the draft for an **IDTA submodel template** (formerly called: Metal 3D Printing Machine) designed to standardize data representation for **Laser Powder Bed Fusion (PBF-LB/M) metal additive manufacturing machines**. The template facilitates **interoperability**, **data exchange**, and **process optimization** within the digital twin ecosystem of additive manufacturing.
 
 ## Project Milestones
 
@@ -83,7 +83,7 @@ gantt
 ```
 
 ## Key Use Cases
-1. **Machine Comparison & Selection** - Enables evaluation of LPBF machines based on standardized parameters.
+1. **Machine Comparison & Selection** - Enables evaluation of PBF-LB/M machines based on standardized parameters.
 2. **Process Optimization** - Helps fine-tune printing parameters for better efficiency and quality.
 3. **Quality Control & Traceability** - Ensures reproducibility through structured data tracking.
 4. **Process Monitoring** - Allows real-time tracking of machine status and environment.
@@ -126,7 +126,7 @@ gantt
     │   │       ├── Heat_Treatment_Points
     │   │       ├── Heating_Rates
     │   │       └── Holding_Times
-    │   └── LBPF
+    │   └── PBF-LB/M
     │       ├── Border_Strategy
     │       │   └── Number_of_Borders
     │       ├── Gas
@@ -157,7 +157,7 @@ gantt
     │       │   │   └── Laser_Speed_(Upskin)
     │       │   ├── Minimal_Exposure_Time
     │       │   └── Volume_Energy_Density
-    │       ├── LPBF_Paramter_Set
+    │       ├── PBF-LB/M_Paramter_Set
     │       ├── Preheat_Temperatur
     │       └── Rates
     │           ├── Build_Up_Rate
@@ -202,7 +202,7 @@ AM Machine Parameters Ontology Visualization:
     │   ├── Technical Model Number
     │   ├── Serial Number
     │   └── Host Name
-    ├── LPBF (ex:LPBF_Parameter_Set)
+    ├── PBF-LB/M (ex:PBF-LB/M_Parameter_Set)
     │   └── Exposure Unit Count
     ├── Sample_Data (ex:Sample_Geometry)
     │   └── Build Volume
@@ -244,7 +244,7 @@ AM Machine Parameters Ontology Visualization:
 - Process profile parameters (Machine and CAD/CAM oriented)
 
 ## Contribution
-We welcome contributions to improve the **IDTA LPBF submodel**. If you have suggestions or wish to participate, feel free to open issues or submit pull requests.
+We welcome contributions to improve the **IDTA PBF-LB/M submodel**. If you have suggestions or wish to participate, feel free to open issues or submit pull requests.
 
 ---
 ### Contact & Further Information
