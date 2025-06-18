@@ -24,3 +24,4 @@ def test_flatten_parameters_basic_subset():
         assert key in flattened, f"Missing parameter: {key}"
         assert flattened[key] == datatype
 
+

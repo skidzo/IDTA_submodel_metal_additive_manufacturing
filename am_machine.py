@@ -10,7 +10,7 @@ def _flatten_parameters(params: dict) -> dict:
     result = {}
     for key, value in params.items():
         if isinstance(value, dict):
-            if "type" in value:
+            if "type" in value and not isinstance(value["type"], dict):
                 result[key] = value["type"]
             result.update(_flatten_parameters(value))
     return result
