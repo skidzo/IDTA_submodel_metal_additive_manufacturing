@@ -49,6 +49,14 @@ the output for inspection, redirect it to a file:
 python am_machine.py > output.json
 ```
 
+### Running Tests
+
+After installing the requirements, execute:
+
+```bash
+pytest
+```
+
 ## Overview
 This repository contains the draft for an **IDTA submodel template** (formerly called: Metal 3D Printing Machine) designed to standardize data representation for **Laser Powder Bed Fusion (LPBF) metal additive manufacturing machines**. The template facilitates **interoperability**, **data exchange**, and **process optimization** within the digital twin ecosystem of additive manufacturing.
 
