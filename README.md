@@ -30,6 +30,7 @@ This project aims to standardize the digital representation of LPBF-M machines f
 ```bash
 git clone https://github.com/skidzo/IDTA_submodel_metal_additive_manufacturing.git
 cd IDTA_submodel_metal_additive_manufacturing
+pip install -r requirements.txt
 ```
 Install the dependencies (requires Python 3.8 or later):
 
