@@ -90,6 +90,9 @@ gantt
 5. **Data-Driven Process Improvement** - Supports historical data analysis for performance enhancement.
 6. **Interoperability & Integration** - Facilitates seamless communication across systems and platforms.
 7. **AI Integration for Cognitive Production** - Enables predictive maintenance and automated decision-making.
+## 📚 Parameter Reference
+For detailed descriptions of each property and collection, see [docs/parameters.md](docs/parameters.md). The `docs` directory also includes `example_submodel.json` generated with `am_machine.py`.
+
 
 ## Additive Laboratory Ontology Big Picture:
 
