@@ -64,22 +64,22 @@ This repository contains the draft for an **IDTA submodel template** (formerly c
 
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
     title IDTA Submodel Project Milestones
+    dateFormat  YYYY-MM-DD
     section Initiation
-    Kickoff Meeting     :done, 2025-05-06, 2025-05-06
+    Kickoff Meeting: done, 2025-05-06, 1d
     section Data Collection
-    Gather Parameters   : 2025-05-07, 2025-06-07
-    Collect Data       : 2025-06-08, 2025-07-08
+    Gather Parameters: 2025-05-07, 2025-06-07
+    Collect Data: 2025-06-08, 2025-07-08
     section Template Design
-    Submodel Framework  : 2025-07-09, 2025-08-09
-    Parameters Mapping : 2025-08-10, 2025-09-10
+    Submodel Framework: 2025-07-09, 2025-08-09
+    Parameters Mapping: 2025-08-10, 2025-09-10
     section Testing and Refinement
     Template Validation: 2025-09-11, 2025-10-11
     Iterative Refinement: 2025-10-12, 2025-11-12
     section Finalization
-    Documentation       : 2025-11-13, 2025-12-13
-    Presentation        : 2025-12-14, 2026-02-14
+    Documentation: 2025-11-13, 2025-12-13
+    Presentation: 2025-12-14, 2026-02-14
 ```
 
 ## Key Use Cases
